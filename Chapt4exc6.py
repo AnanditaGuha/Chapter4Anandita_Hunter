@@ -1,17 +1,15 @@
 import turtle
+wn = turtle.Screen()
+
 
 def draw_poly(t, ss, sz):
     
     for i in range(ss):
-        t.forward(sz)
-        t.left(120)
+        turtle.forward(sz)
+        turtle.left(120)
 
 def drawequitriangle(t, sz):
     draw_poly(t, 3, sz)
     
-wn = turtle.Screen()
 
-
-
-
-drawequitriangle(turtle, 100)
+drawequitriangle (turtle,100)
