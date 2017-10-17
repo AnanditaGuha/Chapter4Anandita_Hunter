@@ -1,50 +1,39 @@
 import turtle
 wn= turtle.Screen()
+jo = turtle.Turtle()
+
+def draw_star(turt):
+    for i in range(5):
+        turt.forward(100)
+        turt.right(144)     
+draw_star(jo)
+
+jo.penup()
+jo.forward(350)
+jo.right(144)
+jo.pendown()
+
+draw_star(jo)
 
 
-turtle.color("blue")
-turtle.penup()
-turtle.forward(-150)
-turtle.pendown()
+jo.penup()
+jo.forward(350)
+jo.right(144)
+jo.pendown()
 
-for i in range(5):
-        turtle.pendown()
-        turtle.forward(100)
-        turtle.right(144)
-        turtle.penup()
-        
-turtle.forward(350)
-turtle.right(144)
+draw_star(jo)
 
-for i in range(5):
-        turtle.pendown()
-        turtle.forward(100)
-        turtle.right(144)
-        turtle.penup()
-        
-turtle.forward(350)
-turtle.right(144)
+jo.penup()
+jo.forward(350)
+jo.right(144)
+jo.pendown()
 
-for i in range(5):
-        turtle.pendown()
-        turtle.forward(100)
-        turtle.right(144)
-        turtle.penup()
-        
-turtle.forward(350)
-turtle.right(144)
+draw_star(jo)
 
-for i in range(5):
-        turtle.pendown()
-        turtle.forward(100)
-        turtle.right(144)
-        turtle.penup()
-        
-turtle.forward(350)
-turtle.right(144)
+jo.penup()
+jo.forward(350)
+jo.right(144)
+jo.pendown()
 
-for i in range(5):
-        turtle.pendown()
-        turtle.forward(100)
-        turtle.right(144)
-        turtle.penup()
+draw_star(jo)
+
